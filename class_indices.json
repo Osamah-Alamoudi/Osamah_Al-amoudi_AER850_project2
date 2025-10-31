@@ -1,0 +1,12 @@
+{
+  "indices": {
+    "crack": 0,
+    "missing-head": 1,
+    "paint-off": 2
+  },
+  "inverse": {
+    "0": "crack",
+    "1": "missing-head",
+    "2": "paint-off"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "img_size": [
+    500,
+    500
+  ],
+  "batch_size": 32,
+  "conv_filters": [
+    32,
+    64,
+    128
+  ],
+  "kernel_size": [
+    3,
+    3
+  ],
+  "dense_units": 128,
+  "activations": {
+    "conv": "relu",
+    "dense": "relu",
+    "final": "softmax"
+  },
+  "optimizer": "adam",
+  "lr": 0.0001,
+  "loss": "categorical_crossentropy"
+}
